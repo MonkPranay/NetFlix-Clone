@@ -19,7 +19,7 @@ export default function App() {
       <Row title="TOPRATED" fetchUrl={request.fetchTrending} />
       <Row title="COMEDY" fetchUrl={request.fetchComedyMovies} />
       <Row title="HORRO" fetchUrl={request.fetchHorroMovies} />
-      <Row title="ROMANCE MOVIES" fetchUrl={request.fetchRomanceMovies} />
+      <Row title="ROMANCE" fetchUrl={request.fetchRomanceMovies} />
       <Row title="DOCUMENTRIES" fetchUrl={request.fetchDocumentariesMovies} />
     </div>
   );
