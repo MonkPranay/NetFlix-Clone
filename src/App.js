@@ -15,10 +15,10 @@ export default function App() {
         fetchUrl={request.fetchNetflixOriginals}
         isLargeRow={true}
       />
-      <Row title="TRENDING TODAY" fetchUrl={request.fetchTopRate} />
+      <Row title="TRENDING" fetchUrl={request.fetchTopRate} />
       <Row title="TOPRATED" fetchUrl={request.fetchTrending} />
-      <Row title="COMEDY MOVIES" fetchUrl={request.fetchComedyMovies} />
-      <Row title="HORRO MOVIES" fetchUrl={request.fetchHorroMovies} />
+      <Row title="COMEDY" fetchUrl={request.fetchComedyMovies} />
+      <Row title="HORRO" fetchUrl={request.fetchHorroMovies} />
       <Row title="ROMANCE MOVIES" fetchUrl={request.fetchRomanceMovies} />
       <Row title="DOCUMENTRIES" fetchUrl={request.fetchDocumentariesMovies} />
     </div>
